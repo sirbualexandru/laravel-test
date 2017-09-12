@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title> {{ config('project.name' , 'App Project') }} </title>
-				<base href="<?php echo url('/'); ?>" />
+				<base href="{{ url('/') }}" />
 
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -63,13 +63,11 @@
 
 			<div id="logo-group">
 				<span id="logo">
-					<img src="img/logo-red.png" alt="Company" style="width: 120px">
+					<img src="/img/logo.png" alt="Company" style="width: 120px">
 				</span>
 
 				<!-- END AJAX-DROPDOWN -->
 			</div>
-
-
 		</header>
 
     @yield('content')
@@ -114,9 +112,7 @@
         <script src="js/notification/SmartNotification.min.js"></script>
 
 		<!--[if IE 8]>
-			
 			<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
-			
 		<![endif]-->
 
 		<!-- MAIN APP JS FILE -->

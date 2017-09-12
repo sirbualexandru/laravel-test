@@ -55,38 +55,38 @@
                                 <div class="widget-body no-padding">
                                     <table id="datatable_fixed_column" class="table table-striped table-bordered" width="100%">
                                         <thead>
-                                        <tr>
-                                            <th class="hasinput" style="width:40px" />
-                                                <input type="text" class="form-control" placeholder="ID" />
-                                            </th>
+                                            <tr>
+                                                <th class="hasinput" style="width:40px" />
+                                                    <input type="text" class="form-control" placeholder="ID" />
+                                                </th>
 
-                                            <th class="hasinput" >
-                                                <input type="text" class="form-control" placeholder="{{ trans('lang.email') }}" />
-                                            </th>
+                                                <th class="hasinput" >
+                                                    <input type="text" class="form-control" placeholder="{{ trans('lang.email') }}" />
+                                                </th>
 
-                                            <th class="hasinput" >
-                                                <input type="text" class="form-control" placeholder="{{ trans('lang.first_name') }}" />
-                                            </th>
+                                                <th class="hasinput" >
+                                                    <input type="text" class="form-control" placeholder="{{ trans('lang.first_name') }}" />
+                                                </th>
 
-                                            <th class="hasinput" >
-                                                <input type="text" class="form-control" placeholder="{{ trans('lang.last_name') }}" />
-                                            </th>
+                                                <th class="hasinput" >
+                                                    <input type="text" class="form-control" placeholder="{{ trans('lang.last_name') }}" />
+                                                </th>
 
-                                            <th class="hasinput" >
-                                                <input type="text" class="form-control" placeholder="{{ trans('lang.job') }}" />
-                                            </th>
+                                                <th class="hasinput" >
+                                                    <input type="text" class="form-control" placeholder="{{ trans('lang.job') }}" />
+                                                </th>
 
-                                            <th></th>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <th data-class="expand" style="width:40px" >ID</th>
-                                            <th data-class="expand">{{ trans('lang.email') }}</th>
-                                            <th data-hide="phone,tablet" >{{ trans('lang.first_name') }}</th>
-                                            <th data-hide="phone,tablet" >{{ trans('lang.last_name') }}</th>
-                                            <th data-hide="phone,tablet" >{{ trans('lang.applied_to_this_job') }}</th>
-                                            <th style="width:110px;">{{ trans('lang.action') }}</th>
-                                        </tr>
+                                                <th></th>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <th data-class="expand" style="width:40px" >ID</th>
+                                                <th data-class="expand">{{ trans('lang.email') }}</th>
+                                                <th data-hide="phone,tablet" >{{ trans('lang.first_name') }}</th>
+                                                <th data-hide="phone,tablet" >{{ trans('lang.last_name') }}</th>
+                                                <th data-hide="phone,tablet" >{{ trans('lang.applied_to_this_job') }}</th>
+                                                <th style="width:110px;">{{ trans('lang.action') }}</th>
+                                            </tr>
                                         </thead>
                                     </table>
                                 </div>
@@ -110,7 +110,6 @@
 @endsection
 
 
-
 @section('custom_plugin')
     <!-- PAGE RELATED PLUGIN(S) -->
     <script src="js/plugin/datatables/jquery.dataTables.min.js"></script>
@@ -119,7 +118,6 @@
     <script src="js/plugin/datatables/dataTables.bootstrap.min.js"></script>
     <script src="js/plugin/datatable-responsive/datatables.responsive.min.js"></script>
 @endsection
-
 
 
 @section('custom_script')

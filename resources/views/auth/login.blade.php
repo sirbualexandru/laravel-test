@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('content')
 
 <div id="main" role="main">
@@ -12,6 +13,7 @@
 				<div class="well no-padding">
 					<form  id="login-form" class="smart-form client-form" method="post" action="login">
 						{{ csrf_field() }}
+						
 						<header>
 							{{ trans('lang.sign_in') }}
 						</header>
@@ -21,16 +23,25 @@
 						<fieldset>
 							<section>
 								<label class="label">{{ trans('lang.e_mail') }}</label>
-								<label class="input {{ $errors->has('email') ? ' has-error' : '' }}"> <i class="icon-append fa fa-user"></i>
+								<label class="input {{ $errors->has('email') ? ' has-error' : '' }}">
+									<i class="icon-append fa fa-user"></i>
 									<input type="email" name="email">
-									<b class="tooltip tooltip-top-right"><i class="fa fa-user txt-color-teal"></i> Please enter email address</b></label>
+									<b class="tooltip tooltip-top-right">
+										<i class="fa fa-user txt-color-teal"></i>
+										Please enter email address
+									</b>
+								</label>
 							</section>
 
 							<section>
 								<label class="label">{{ trans('lang.password') }}</label>
 								<label class="input"> <i class="icon-append fa fa-lock"></i>
 									<input type="password" name="password">
-									<b class="tooltip tooltip-top-right"><i class="fa fa-lock txt-color-teal"></i> Enter your password</b> </label>
+									<b class="tooltip tooltip-top-right">
+										<i class="fa fa-lock txt-color-teal"></i>
+										Enter your password
+									</b>
+								</label>
 							</section>
 
 							<section>
@@ -52,12 +63,10 @@
                             </a>
 						</footer>
 					</form>
-
 				</div>
 			</div>
 		</div>
 	</div>
-
 </div>
 @endsection
 

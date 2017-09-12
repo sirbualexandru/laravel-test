@@ -24,32 +24,25 @@
                             data-widget-custombutton="false"
                             data-widget-collapsed="true"
                             data-widget-sortable="false"
-
                             -->
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Bar Chart</h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="bar-chart" class="chart"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -74,27 +67,21 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Sin Chart</h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="sin-chart" class="chart has-legend"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -134,27 +121,21 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Auto Updating Chart </h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="updating-chart" class="chart"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -185,27 +166,21 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Horizontal Bar Chart </h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="bar-chart-h" class="chart"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -243,7 +218,6 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Sales Chart</h2>
-
                             </header>
 
                             <!-- widget div-->
@@ -252,15 +226,12 @@
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="saleschart" class="chart"></div>
-
                                 </div>
                                 <!-- end widget content -->
 
@@ -301,27 +272,21 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Plot Percentiles</h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="fill-chart" class="chart has-legend"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -352,27 +317,21 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Pie Chart</h2>
-
                             </header>
 
                             <!-- widget div-->
                             <div>
-
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="pie-chart" class="chart"></div>
-
                                 </div>
                                 <!-- end widget content -->
-
                             </div>
                             <!-- end widget div -->
 
@@ -410,7 +369,6 @@
                             <header>
                                 <span class="widget-icon"> <i class="fa fa-bar-chart-o"></i> </span>
                                 <h2>Site Stats Chart</h2>
-
                             </header>
 
                             <!-- widget div-->
@@ -419,15 +377,12 @@
                                 <!-- widget edit box -->
                                 <div class="jarviswidget-editbox">
                                     <!-- This area used as dropdown edit box -->
-
                                 </div>
                                 <!-- end widget edit box -->
 
                                 <!-- widget content -->
                                 <div class="widget-body no-padding">
-
                                     <div id="site-stats" class="chart has-legend"></div>
-
                                 </div>
                                 <!-- end widget content -->
 

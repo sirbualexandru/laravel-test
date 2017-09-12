@@ -77,7 +77,7 @@
 
 		<!-- MAIN APP JS FILE -->
 		<script src="js/app.min.js"></script>
-    <script src="//js.pusher.com/2.2/pusher.min.js"></script>
+    	<script src="//js.pusher.com/2.2/pusher.min.js"></script>
 
         <!-- ENHANCEMENT PLUGINS : NOT A REQUIREMENT -->
         <!-- Voice command : plugin -->

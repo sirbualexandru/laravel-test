@@ -1,7 +1,7 @@
 <script type="text/javascript">
 	var content = '';
 
-	@if( is_array($errors) )
+	@if (is_array($errors))
         @foreach($errors as $error)
             content += '<i class="fa fa-times"></i> <i>{{ $error }}</i><br/>';
         @endforeach

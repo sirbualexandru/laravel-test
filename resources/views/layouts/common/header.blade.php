@@ -12,7 +12,7 @@
 		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
 		<title> {{ config('project.name', 'App Project') }} </title>
-		<base href="<?php echo url('/'); ?>" />
+		<base href="{{ url('/') }}" />
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<meta name="csrf-token" content="{{ csrf_token() }}">

@@ -124,7 +124,6 @@
                                 </label>
                             </section>
 
-
                             <footer>
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-user"></i> {{ trans('lang.register') }}

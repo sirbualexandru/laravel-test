@@ -65,19 +65,19 @@
                                                     <input type="hidden" name="id" value="{{ $page->id }}" />
                                                     
                                                     <section class="col col-md-12">
-                                                        <h4>{{ trans('lang.name') }}: <small>{{ $page->first_name }} {{ $page->last_name }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.name') }}: <small>{{ $page->first_name .' '. $page->last_name }}</small></h4><hr /><br />
 
-                                                        <h4>{{ trans('lang.email') }}: <small>{{ $page->email }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.email') }}: <small>{{ $page->email }}</small></h4><hr /><br />
 
-                                                        <h4>{{ trans('lang.address') }}: <small>{{ $page->address }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.address') }}: <small>{{ $page->address }}</small></h4><hr /><br />
 
-                                                        <h4>{{ trans('lang.phone') }}: <small>{{ $page->phone }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.phone') }}: <small>{{ $page->phone }}</small></h4><hr /><br />
                                                         
-                                                        <h4>{{ trans('lang.experience') }}: <small>{{ $page->experience }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.experience') }}: <small>{{ $page->experience }}</small></h4><hr /><br />
 
-                                                        <h4>{{ trans('lang.wanted_salary') }}: <small>{{ $page->wanted_salary }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.wanted_salary') }}: <small>{{ $page->wanted_salary }}</small></h4><hr /><br />
 
-                                                        <h4>{{ trans('lang.skills_description') }}: <small>{{ $page->skills_description }}</small></h4><hr><br>
+                                                        <h4>{{ trans('lang.skills_description') }}: <small>{{ $page->skills_description }}</small></h4><hr /><br />
                                                     </section>
                                                 </div>
                                             </fieldset>

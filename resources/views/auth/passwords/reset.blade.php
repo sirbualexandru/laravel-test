@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div id="main" role="main">
 
 	<!-- MAIN CONTENT -->
